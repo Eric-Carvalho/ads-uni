@@ -1,9 +1,13 @@
+<!-- Essa é uma documentação rápida de recursos MarkDown (MD) para ajudar na criação dos materiais de estudos de forma estruturada e flexível. -->
+
 # A first-level heading
 ## A second-level heading
 ### A third-level heading
 #### A 4-level heading
 ##### A 5-level heading
 ###### A 6-level heading
+
+---
 
 **Negrito**
 __Negrito__
@@ -79,11 +83,8 @@ This example<br/> Will span two lines
 ---
 
 ### Imagens
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://i.pinimg.com/474x/da/10/59/da1059cb24cc05f5f1fbe5abe7818f5e.jpg)
 
-	
-### Imagem em mesmo bach    
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](\ads-uniamerica\Imagens\pasta_vazia.png)
 
 ---
 
@@ -146,4 +147,40 @@ This is a second line.
 <!-- This content will not appear in the rendered Markdown -->
 
 ---
+
+### Tabela 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+---
+
+### Diagramas
+
+```mermaid
+graph TD;
+    A-->Eric;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+---
+
+### Criando uma seção recolhida
+<details open>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
 
